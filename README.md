@@ -1,4 +1,4 @@
-README
+READ ME
 ---
 
 The R script - run_analysis.r performs the following data manipulation on the datasets:
@@ -17,12 +17,12 @@ The R script - run_analysis.r performs the following data manipulation on the da
 	- Extract the mean and standard deviation measurements from the `X` data table and store them in data table - `extracted_dataset`.
 
 - Uses descriptive activity names to name the activities in the data set.
-	- Retrieve activity labels from the `activity_labels` using `dataset$y` as the keys and store them in the `activity` variable.
+	- Retrieve activity labels from the `activity_labels` using `dataset$y` as the keys and store them in the `activity`.
 	 
 	- Label the dataset - `extracted_dataset` with `activity`.
 	
 - Appropriately labels the data set with descriptive variable names.   
-	- Rename the column names[1:86] of `extracted_dataset` with the descriptive variable names extracted from `features` data table.
+	- Rename the column names[1:86] of `extracted_dataset` with the descriptive variable names extracted from `features`.
 
 - Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 	- Add the subject information in the `extracted_dataset`.
