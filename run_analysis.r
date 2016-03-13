@@ -42,4 +42,4 @@ colnames(extracted_dataset)[1:86] = features[grepl("mean|std", tolower(label)), 
 # 5) Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 extracted_dataset$subject = dataset$subject  
 tidy_data <- extracted_dataset[, lapply(.SD, mean), .(subject, activity)] 
-write.table(tidy_data1, file = "tidy_data.txt", row.names = F)
+write.table(tidy_data, file = "tidy_data.txt", row.names = F)
