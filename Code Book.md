@@ -16,6 +16,18 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
+The set of variables that were estimated from these signals are: 
+>mean(): Mean value
+std(): Standard deviation
+
+Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+>gravityMean
+tBodyAccMean
+tBodyAccJerkMean
+tBodyGyroMean
+tBodyGyroJerkMean
+
 ## Attribute Information:
 For each record in the dataset it is provided: 
 
@@ -24,6 +36,8 @@ For each record in the dataset it is provided:
 - A 561-feature vector with time and frequency domain variables. 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
+
+
 
 
 [1]:	https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "Smart phone dataset"
