@@ -14,7 +14,7 @@ The R script - run_analysis.r performs the following data manipulation on the da
 
 	- Retrieve the codes of the activity labels containing "mean" or "std" strings from the `features` data table.
 
-	- Extract the mean and standard deviation measurements from the `X` data table and store them in data table - `extracted_dataset`.
+	- Extract the mean and standard deviation measurements from data table `X` and store them in `extracted_dataset`.
 
 - Use descriptive activity names to name the activities in the data set.
 	- Retrieve activity labels from the `activity_labels` using `dataset$y` as the keys and store them in the `activity`.
