@@ -1,4 +1,4 @@
-READ ME
+README
 ---
 
 The R script - run_analysis.r performs the following data manipulation on the datasets:
