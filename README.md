@@ -27,6 +27,6 @@ The R script - run_analysis.r performs the following data manipulation on the da
 - Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 	- Add the subject information in the `extracted_dataset`.
 	
-	- Calculate the means of each variable for the `extracted_dataset` grouped by activity and each subject and store the final dataset in `tidy_data`.
+	- Calculate the means of each variable for the `extracted_dataset` grouped by activity and subject, and store the final dataset in `tidy_data`.
 
 	- Export `tidy_data` to the txt file - tidy_data.txt.
