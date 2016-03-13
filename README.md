@@ -1,5 +1,5 @@
-# Getting-and-Cleaning-Data-Course-Project
-Repository created for harboring Coursera project - Getting and Cleaning Data
+# Getting and Cleaning Data Course Project
+\Repository created for harboring Coursera project - Getting and Cleaning Data
 
 ## Data transformation
 
